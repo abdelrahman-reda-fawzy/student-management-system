@@ -21,8 +21,9 @@ This backend system provides CRUD operations for student and course records, alo
 ```
 student_management_system/
 ├── app.py            # Flask API endpoints and server
-├── models.py         # CRUD logic for students, courses, enrollments
-├── db.py             # Database connection and setup
+├── students.py       # Student CRUD logic
+├── courses.py        # Course CRUD logic
+├── enrollments.py    # Enrollment logic
 ├── data/
 │   └── students.db   # SQLite database file
 ```
