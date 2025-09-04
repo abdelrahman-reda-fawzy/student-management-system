@@ -1,6 +1,5 @@
-
 from flask import Flask, request, jsonify
-from db import setup_database
+from db import setup_database, get_connection
 from students import get_all_students, add_student, delete_student
 from courses import get_all_courses, add_course
 from enrollments import enroll_student, get_students_in_course, get_courses_for_student
